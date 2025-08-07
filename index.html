@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lotta 2.0 – Anonymous Chat</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Lotta 2.0</h1>
+    <label>Select your gender:</label>
+    <select id="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+    <button id="startBtn">Start Chat</button>
+
+    <div id="chatArea" class="hidden">
+      <div id="chatBox"></div>
+      <input type="text" id="messageInput" placeholder="Type a message...">
+      <button id="sendBtn">Send</button>
+    </div>
+  </div>
+</body>
+        </html>
+        
