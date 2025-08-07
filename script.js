@@ -1,4 +1,4 @@
-const socket = io("http://localhost:3000"); // Update to your backend
+const socket = io("https://anonymous-chat-backend-8a9r.onrender.com"); // Update to your backend
 
 document.getElementById("startBtn").onclick = () => {
   const gender = document.getElementById("gender").value;
@@ -25,3 +25,4 @@ function appendMessage(msg) {
   box.innerHTML += `<div>${msg}</div>`;
   box.scrollTop = box.scrollHeight;
     }
+
